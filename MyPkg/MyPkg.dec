@@ -1,0 +1,16 @@
+[Defines]
+  DEC_SPECIFICATION              = 0x00010005
+  PACKAGE_NAME                   = MyPkg
+  PACKAGE_GUID                   = bad53a42-f1ac-4314-9921-2e4b5d36fb26
+  PACKAGE_VERSION                = 1.0
+
+
+[Includes]
+  Include/Library
+
+[LibraryClasses]
+	MYLIB_StringLib|Include/Library/MYLIB_StringLib.h
+	MYLIB_IoLib|Include/Library/MYLIB_IoLib.h
+	MYLIB_CpuLib|Include/Library/MYLIB_CpuLib.h
+	MYLIB_EcLib|Include/Library/MYLIB_EcLib.h
+	MYLIB_SmBiosLib|Include/Library/MYLIB_SmBiosLib.h

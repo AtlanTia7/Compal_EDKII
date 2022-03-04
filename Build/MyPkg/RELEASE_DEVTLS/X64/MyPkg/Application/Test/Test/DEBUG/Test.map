@@ -1,0 +1,48 @@
+ Test
+
+ Timestamp is 62161076 (Wed Feb 23 18:46:14 2022)
+
+ Preferred load address is 0000000000000000
+
+ Start         Length     Name                   Class
+ 0001:00000000 000002b1H .text                   CODE
+ 0002:00000000 00000000H .data                   DATA
+ 0002:00000000 000001a4H .rdata                  DATA
+ 0002:000001a8 00000020H .bss                    DATA
+ 0003:00000000 00000030H .pdata                  DATA
+ 0004:00000000 00000034H .xdata                  DATA
+
+  Address         Publics by Value              Rva+Base               Lib:Object
+
+ 0001:00000000       _ModuleEntryPoint          00000000000002a0 f   UefiApplicationEntryPoint:ApplicationEntryPoint.obj
+ 0001:00000064       ProcessLibraryConstructorList 0000000000000304 f   Test:AutoGen.obj
+ 0001:000001a4       ProcessModuleEntryPointList 0000000000000444 f   Test:AutoGen.obj
+ 0001:000001ac       UefiLibConstructor         000000000000044c f   UefiLib:UefiLib.obj
+ 0001:000001ac       UefiMain                   000000000000044c f   Test:Test.obj
+ 0001:000001b0       DebugPrint                 0000000000000450 f   BaseDebugLibNull:DebugLib.obj
+ 0001:000001bc       ProcessLibraryDestructorList 000000000000045c f   Test:AutoGen.obj
+ 0001:000001bc       DebugAssert                000000000000045c f   BaseDebugLibNull:DebugLib.obj
+ 0001:000001c0       DebugPrintEnabled          0000000000000460 f   BaseDebugLibNull:DebugLib.obj
+ 0001:000001c0       DebugPrintLevelEnabled     0000000000000460 f   BaseDebugLibNull:DebugLib.obj
+ 0001:000001c0       DebugAssertEnabled         0000000000000460 f   BaseDebugLibNull:DebugLib.obj
+ 0001:000001c4       UefiBootServicesTableLibConstructor 0000000000000464 f   UefiBootServicesTableLib:UefiBootServicesTableLib.obj
+ 0001:00000270       UefiRuntimeServicesTableLibConstructor 0000000000000510 f   UefiRuntimeServicesTableLib:UefiRuntimeServicesTableLib.obj
+ 0002:00000000       _gUefiDriverRevision       0000000000000560     Test:AutoGen.obj
+ 0002:00000010       ??_C@_0EO@DOCIKOPH@q?3?2Build?2MyPkg?2RELEASE_DEVTLS?2X6@ 0000000000000570     Test:AutoGen.obj
+ 0002:00000060       ??_C@_0BE@DCHLEIGN@?$CBEFI_ERROR?5?$CIStatus?$CJ?$AA@ 00000000000005c0     Test:AutoGen.obj
+ 0002:00000078       ??_C@_0CB@DMEJJJHA@?6ASSERT_EFI_ERROR?5?$CIStatus?5?$DN?5?$CFr?$CJ?6@ 00000000000005d8     Test:AutoGen.obj
+ 0002:000000a0       ??_C@_0BE@BDFJLGLN@gBS?5?$CB?$DN?5?$CI?$CIvoid?5?$CK?$CJ?50?$CJ?$AA@ 0000000000000600     UefiBootServicesTableLib:UefiBootServicesTableLib.obj
+ 0002:000000b8       ??_C@_0BE@DGNHAHIL@gST?5?$CB?$DN?5?$CI?$CIvoid?5?$CK?$CJ?50?$CJ?$AA@ 0000000000000618     UefiBootServicesTableLib:UefiBootServicesTableLib.obj
+ 0002:000000d0       ??_C@_0EG@IHBEIGJL@q?3?2MdePkg?2Library?2UefiBootServic@ 0000000000000630     UefiBootServicesTableLib:UefiBootServicesTableLib.obj
+ 0002:00000118       ??_C@_0BN@COECPDCC@gImageHandle?5?$CB?$DN?5?$CI?$CIvoid?5?$CK?$CJ?50?$CJ?$AA@ 0000000000000678     UefiBootServicesTableLib:UefiBootServicesTableLib.obj
+ 0002:00000140       ??_C@_0EM@DLKNJEFG@q?3?2MdePkg?2Library?2UefiRuntimeSer@ 00000000000006a0     UefiRuntimeServicesTableLib:UefiRuntimeServicesTableLib.obj
+ 0002:00000190       ??_C@_0BE@OBDFIHND@gRT?5?$CB?$DN?5?$CI?$CIvoid?5?$CK?$CJ?50?$CJ?$AA@ 00000000000006f0     UefiRuntimeServicesTableLib:UefiRuntimeServicesTableLib.obj
+ 0002:000001a8       gImageHandle               0000000000000708     UefiBootServicesTableLib:UefiBootServicesTableLib.obj
+ 0002:000001b0       gST                        0000000000000710     UefiBootServicesTableLib:UefiBootServicesTableLib.obj
+ 0002:000001b8       gBS                        0000000000000718     UefiBootServicesTableLib:UefiBootServicesTableLib.obj
+ 0002:000001c0       gRT                        0000000000000720     UefiRuntimeServicesTableLib:UefiRuntimeServicesTableLib.obj
+
+ entry point at        0001:00000000
+
+ Static symbols
+
